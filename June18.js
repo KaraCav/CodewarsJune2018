@@ -1,3 +1,13 @@
+// NUMBER 1: Get the number n (n > 0) to return the reversed sequence from n to 1.
+
+const reverseSeq = n => {
+    let myArr = [];
+    for (var i = 1; i <= n; i++) {
+        myArr.push(i);
+    }
+    return myArr.reverse();
+};
+
 // NUMBER 1:  Implement Length() to count the number of nodes in a linked list.
 
 //     length(null) => 0
