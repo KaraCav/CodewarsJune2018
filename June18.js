@@ -34,3 +34,21 @@ function michaelPays(costs) {
         return Math.round((costs - 10) * 100) / 100
     }
 }
+
+// NUMBER 4: My TV remote control has arrow buttons and an OK button. I can use these to move a "cursor" on a logical screen keyboard to type words. The keypad is a 2D array. How many button presses on my remote are required to type a given word?
+
+var tvRemote = function (word) {
+
+    let myRemote = [['a', 'b', 'c'], ['d', 'e']];
+
+    var x1 = 1;
+    var y1 = 0;
+    console.log(myRemote[y1][x1]);
+
+    // for(let i=0; i< word.length; i++){
+    //   console.log(myRemote.indexOf(myWord[i]))
+    //   if(myRemote.indexOf(myWord[i] >-1){
+    //   }
+    // }
+    // return 1;
+}
